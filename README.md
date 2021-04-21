@@ -37,7 +37,7 @@ Build must be successful if you did all right. After build, we'll trying to run 
 npm run start
 ```
 
-And we got error with these reaon:
+And we got error with these reason:
 ```
 TypeInfo not known for "ApiService"
 ```
@@ -51,7 +51,8 @@ Copy library directly in app
 ```
 # work in simple_app directory
 rm -rf node_modules/@my
-mkdir -p node_modules/@my/library
+mkdir node_modules/@my
+mkdir node_modules/@my/library
 cp ../library/package.json node_modules/@my/library
 cp -r ../library/build node_modules/@my/library
 ```
