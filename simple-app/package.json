@@ -1,0 +1,22 @@
+{
+  "name": "@my/simple-app",
+  "version": "1.0.0",
+  "main": "build/index.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13",
+    "tsyringe": "^4.5.0"
+  },
+  "peerDependencies": {
+    "@my/library": "^1.0.0"
+  }
+}

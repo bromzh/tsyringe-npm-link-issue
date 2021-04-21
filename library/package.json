@@ -1,0 +1,21 @@
+{
+  "name": "@my/library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "typings": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "reflect-metadata": "^0.1.13",
+    "tsyringe": "^4.5.0",
+    "typescript": "^4.2.4"
+  },
+  "peerDependencies": {
+    "reflect-metadata": "^0.1.13",
+    "tsyringe": "^4.5.0"
+  }
+}
