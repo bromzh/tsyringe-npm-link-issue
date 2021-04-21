@@ -2,7 +2,7 @@
 ## Steps to reproduce
 ### Prepearing
 ```
-git clone ...
+git clone https://github.com/bromzh/tsyringe-npm-link-issue.git
 ```
 
 1. Install lib dependencies and build library
